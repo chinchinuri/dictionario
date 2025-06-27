@@ -1,0 +1,300 @@
+{
+  "title": "Film And Series Terminology",
+  "description": "",
+  "data": [
+    {
+      "term": "Feature Film",
+      "translation": "Повнометражний фільм",
+      "explanation": "Фільм, тривалість якого зазвичай складає 75-210 хвилин.",
+      "category": "General"
+    },
+    {
+      "term": "Short Film",
+      "translation": "Короткометражний фільм",
+      "explanation": "Фільм тривалістю до 40 хвилин.",
+      "category": "General"
+    },
+    {
+      "term": "Franchise",
+      "translation": "Франшиза",
+      "explanation": "Серія медіапродуктів (фільмів, серіалів, ігор), пов'язаних спільним вигаданим всесвітом.",
+      "category": "General"
+    },
+    {
+      "term": "Remake",
+      "translation": "Римейк",
+      "explanation": "Нова версія вже існуючого фільму. [2]",
+      "category": "General"
+    },
+    {
+      "term": "Reboot",
+      "translation": "Перезапуск",
+      "explanation": "Нова версія франшизи, яка ігнорує попередні частини і починає історію заново. [1]",
+      "category": "General"
+    },
+    {
+      "term": "Sequel",
+      "translation": "Сиквел",
+      "explanation": "Фільм, що продовжує сюжетну лінію попереднього фільму. [2]",
+      "category": "General"
+    },
+    {
+      "term": "Prequel",
+      "translation": "Приквел",
+      "explanation": "Фільм, події якого відбуваються до подій оригінального фільму. [1]",
+      "category": "General"
+    },
+    {
+      "term": "Spin-off",
+      "translation": "Спін-оф",
+      "explanation": "Фільм або серіал, сюжет якого зосереджений на другорядному персонажі або події з основного твору. [1]",
+      "category": "General"
+    },
+    {
+      "term": "Action",
+      "translation": "Бойовик / Екшн",
+      "explanation": "Жанр, що характеризується великою кількістю бойових сцен, погонь та трюків.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Adventure",
+      "translation": "Пригоди",
+      "explanation": "Фільми про подорожі та дослідження, часто в екзотичних місцях.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Comedy",
+      "translation": "Комедія",
+      "explanation": "Жанр, метою якого є розсмішити глядача.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Rom-Com (Romantic Comedy)",
+      "translation": "Романтична комедія",
+      "explanation": "Піджанр, що поєднує елементи комедії та романтичної історії кохання.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Drama",
+      "translation": "Драма",
+      "explanation": "Жанр, зосереджений на реалістичних персонажах, їхніх емоціях та конфліктах.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Sci-Fi (Science Fiction)",
+      "translation": "Наукова фантастика",
+      "explanation": "Жанр, заснований на футуристичних наукових концепціях, технологіях та космічних подорожах.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Horror",
+      "translation": "Фільм жахів",
+      "explanation": "Жанр, створений для того, щоб викликати у глядача почуття страху та тривоги.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Thriller",
+      "translation": "Трилер",
+      "explanation": "Жанр, що викликає у глядача напруження, хвилювання та очікування.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Documentary",
+      "translation": "Документальний фільм",
+      "explanation": "Неігровий фільм, заснований на реальних подіях та фактах. [1]",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Mockumentary",
+      "translation": "Псевдодокументальний фільм",
+      "explanation": "Ігровий фільм, що стилізований під документальний, часто з комедійною або сатиричною метою. [1]",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Fantasy",
+      "translation": "Фентезі",
+      "explanation": "Жанр, що використовує магію та інші надприродні елементи як основний елемент сюжету.",
+      "category": "GenresAndSubgenres"
+    },
+    {
+      "term": "Series",
+      "translation": "Серіал",
+      "explanation": "Багатосерійний твір, де кожна серія зазвичай має власну завершену історію, але пов'язана спільними персонажами. [1]",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Serial",
+      "translation": "Серіал (з наскрізним сюжетом)",
+      "explanation": "Серіал, де кожна серія є продовженням попередньої, утворюючи єдину сюжетну лінію. [1]",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Miniseries",
+      "translation": "Мінісеріал",
+      "explanation": "Серіал з обмеженою, заздалегідь визначеною кількістю епізодів та завершеною історією. [1]",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Anthology Series",
+      "translation": "Антологія",
+      "explanation": "Серіал, в якому кожен епізод або сезон розповідає окрему, не пов'язану з іншими історію з різними персонажами.",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Procedural",
+      "translation": "Процедурал",
+      "explanation": "Тип серіалу (часто детективного або юридичного), де в кожному епізоді розслідується нова справа, яка вирішується до кінця серії.",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Sitcom (Situational Comedy)",
+      "translation": "Ситком (ситуаційна комедія)",
+      "explanation": "Комедійний серіал з постійним набором персонажів, які потрапляють у різні комічні ситуації. [23]",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Pilot",
+      "translation": "Пілотний епізод",
+      "explanation": "Перший, пробний епізод серіалу, який знімається для того, щоб зацікавити телеканал або стрімінговий сервіс у виробництві цілого сезону. [1]",
+      "category": "TVSeriesFormats"
+    },
+    {
+      "term": "Producer",
+      "translation": "Продюсер",
+      "explanation": "Особа, відповідальна за фінансування, організацію та загальне керівництво виробництвом фільму. [9]",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Executive Producer",
+      "translation": "Виконавчий продюсер",
+      "explanation": "Зазвичай фінансує проєкт або забезпечує ключові ресурси, але не бере участі в щоденному управлінні виробництвом. [8]",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Director",
+      "translation": "Режисер",
+      "explanation": "Ключова творча фігура, що відповідає за художнє бачення фільму та керує акторами і знімальною групою. [9]",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Screenwriter",
+      "translation": "Сценарист",
+      "explanation": "Автор сценарію – тексту, що містить діалоги, описи сцен та дії.",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Director of Photography (DP/Cinematographer)",
+      "translation": "Оператор-постановник",
+      "explanation": "Відповідає за візуальний стиль фільму, освітлення, композицію кадру та роботу з камерою. [8]",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Editor",
+      "translation": "Монтажер",
+      "explanation": "Здійснює монтаж відзнятого матеріалу, формуючи з окремих сцен цілісний твір. [8]",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Production Designer",
+      "translation": "Художник-постановник",
+      "explanation": "Відповідає за створення візуального світу фільму, включаючи декорації, реквізит та загальний стиль. [8]",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "Composer",
+      "translation": "Композитор",
+      "explanation": "Пише оригінальну музику (саундтрек) для фільму.",
+      "category": "ProductionCrewRoles"
+    },
+    {
+      "term": "ADR (Automated Dialogue Replacement)",
+      "translation": "Автоматизована заміна діалогів (дубляж)",
+      "explanation": "Процес перезапису діалогів у студії для покращення якості звуку або виправлення помилок. [6]",
+      "category": "PostProduction"
+    },
+    {
+      "term": "Color Grading",
+      "translation": "Кольорокорекція",
+      "explanation": "Процес зміни та покращення кольорової палітри фільму для створення певного настрою та візуального стилю. [6]",
+      "category": "PostProduction"
+    },
+    {
+      "term": "VFX (Visual Effects)",
+      "translation": "Візуальні ефекти",
+      "explanation": "Створення або маніпуляція зображеннями, які неможливо відзняти в реальності, зазвичай за допомогою комп'ютерної графіки. [6]",
+      "category": "PostProduction"
+    },
+    {
+      "term": "Foley",
+      "translation": "Фолі (шумові ефекти)",
+      "explanation": "Створення та запис синхронних звукових ефектів (кроки, шурхіт одягу) для додавання реалізму. [17]",
+      "category": "PostProduction"
+    },
+    {
+      "term": "Rough Cut",
+      "translation": "Чорновий монтаж",
+      "explanation": "Перша версія змонтованого фільму, ще без фінальних візуальних ефектів та корекції звуку. [6]",
+      "category": "PostProduction"
+    },
+    {
+      "term": "Distributor",
+      "translation": "Дистриб'ютор",
+      "explanation": "Компанія, що займається розповсюдженням фільму в кінотеатрах, на стрімінгових платформах та інших медіа. [5]",
+      "category": "Distribution"
+    },
+    {
+      "term": "Theatrical Release",
+      "translation": "Кінотеатральний реліз",
+      "explanation": "Випуск фільму в кінотеатрах.",
+      "category": "Distribution"
+    },
+    {
+      "term": "VOD (Video on Demand)",
+      "translation": "Відео на вимогу",
+      "explanation": "Система, що дозволяє користувачам дивитися відеоконтент у будь-який час за плату або підпискою.",
+      "category": "Distribution"
+    },
+    {
+      "term": "PVOD (Premium Video on Demand)",
+      "translation": "Преміум відео на вимогу",
+      "explanation": "Дозволяє глядачам дивитися нові фільми вдома за вищу ціну одразу після або під час їхнього кінотеатрального прокату. [5]",
+      "category": "Distribution"
+    },
+    {
+      "term": "Box Office",
+      "translation": "Касові збори",
+      "explanation": "Загальна сума грошей, зібраних від продажу квитків на фільм.",
+      "category": "Distribution"
+    },
+    {
+      "term": "G (General Audiences)",
+      "translation": "Для загальної аудиторії",
+      "explanation": "Фільм підходить для всіх вікових категорій. [4]",
+      "category": "MPARatings"
+    },
+    {
+      "term": "PG (Parental Guidance Suggested)",
+      "translation": "Рекомендовано перегляд з батьками",
+      "explanation": "Деякі матеріали можуть не підходити для дітей. [4]",
+      "category": "MPARatings"
+    },
+    {
+      "term": "PG-13 (Parents Strongly Cautioned)",
+      "translation": "Батькам варто бути обережними",
+      "explanation": "Деякі матеріали можуть бути недоречними для дітей до 13 років. [4]",
+      "category": "MPARatings"
+    },
+    {
+      "term": "R (Restricted)",
+      "translation": "Обмеження за віком",
+      "explanation": "Особи до 17 років допускаються до перегляду лише у супроводі батьків або дорослого опікуна. [4]",
+      "category": "MPARatings"
+    },
+    {
+      "term": "NC-17 (No One 17 and Under Admitted)",
+      "translation": "Особам до 17 років вхід заборонено",
+      "explanation": "Перегляд дозволено лише дорослим. [4]",
+      "category": "MPARatings"
+    }
+  ]
+}
