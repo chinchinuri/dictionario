@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f5f7fa;
+    --text-color: #333;
+    --border-color: #dfe1e5;
+    --danger-color: #d9534f;
+    --success-color: #5cb85c;
+    --warning-color: #f0ad4e; /* Колір для редагування */
+    --white-color: #ffffff;
+    --import-color: #28a745;
+    --export-color: #6c757d;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--white-color);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+button, .btn-style-label {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+button:hover, .btn-style-label:hover {
+    opacity: 0.9;
+}
+
+.field-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#fieldList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.field-tag {
+    background-color: var(--secondary-color);
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.delete-field-btn {
+    background: var(--danger-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 20px;
+}
+
+.file-operations .buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.import-btn { background-color: var(--import-color); }
+.export-btn { background-color: var(--export-color); }
+
+#addEntryForm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#addEntryForm .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#addEntryForm label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#addEntryForm button {
+    grid-column: 1 / -1;
+    background-color: var(--success-color);
+    justify-self: start;
+    margin-top: 10px;
+}
+
+.data-preview {
+    margin-top: 30px;
+}
+
+#dataTableContainer {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle; /* Вирівнюємо кнопки по центру */
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* СТИЛІ ДЛЯ РЕДАГУВАННЯ */
+.action-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.edit-entry-btn { background-color: var(--warning-color); }
+.delete-entry-btn { background-color: var(--danger-color); }
+.save-entry-btn { background-color: var(--success-color); }
+.cancel-edit-btn { background-color: var(--export-color); }
+
+.edit-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+}

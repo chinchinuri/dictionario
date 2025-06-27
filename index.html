@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструктор Словників</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Підключення бібліотеки для експорту в XLSX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Конструктор Словників</h1>
+            <p>Створюйте власні словники, керуйте полями, імпортуйте та експортуйте дані.</p>
+        </header>
+
+        <section class="dictionary-meta">
+            <h2>Налаштування словника</h2>
+            <div class="meta-inputs">
+                <input type="text" id="dictionaryTitle" placeholder="Введіть назву словника...">
+                <textarea id="dictionaryDescription" placeholder="Введіть опис..."></textarea>
+            </div>
+        </section>
+
+        <section class="field-manager">
+            <h2>Керування Полями (Стовпцями)</h2>
+            <div class="field-controls">
+                <input type="text" id="newFieldName" placeholder="Назва нового поля...">
+                <button id="addFieldBtn">Додати поле</button>
+            </div>
+            <div id="fieldList"></div>
+        </section>
+        
+        <!-- Новий блок для Імпорту та Експорту -->
+        <section class="file-operations">
+            <h2>Імпорт та Експорт</h2>
+            <div class="buttons-wrapper">
+                <label for="importJsonInput" class="btn-style-label import-btn">Імпорт з JSON</label>
+                <input type="file" id="importJsonInput" accept=".json" style="display: none;">
+                <button id="exportJsonBtn" class="export-btn">Експорт в JSON</button>
+                <button id="exportCsvBtn" class="export-btn">Експорт в CSV</button>
+                <button id="exportXlsxBtn" class="export-btn">Експорт в XLSX</button>
+            </div>
+        </section>
+
+        <section class="entry-manager">
+            <h2>Додати новий запис</h2>
+            <form id="addEntryForm"></form>
+        </section>
+
+        <section class="data-preview">
+            <h2>Попередній перегляд даних</h2>
+            <div id="dataTableContainer">
+                <p class="no-data">Дані відсутні. Додайте поля та записи, щоб побачити таблицю.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
