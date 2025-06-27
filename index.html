@@ -33,10 +33,11 @@
             <div id="fieldList"></div>
         </section>
         
-        <!-- Новий блок для Імпорту та Експорту -->
         <section class="file-operations">
             <h2>Імпорт та Експорт</h2>
             <div class="buttons-wrapper">
+                <!-- НОВА КНОПКА -->
+                <button id="loadExampleBtn" class="example-btn">Завантажити приклад</button>
                 <label for="importJsonInput" class="btn-style-label import-btn">Імпорт з JSON</label>
                 <input type="file" id="importJsonInput" accept=".json" style="display: none;">
                 <button id="exportJsonBtn" class="export-btn">Експорт в JSON</button>
@@ -53,7 +54,7 @@
         <section class="data-preview">
             <h2>Попередній перегляд даних</h2>
             <div id="dataTableContainer">
-                <p class="no-data">Дані відсутні. Додайте поля та записи, щоб побачити таблицю.</p>
+                <p class="no-data">Дані відсутні. Створіть новий словник або завантажте приклад.</p>
             </div>
         </section>
 
